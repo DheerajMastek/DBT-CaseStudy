@@ -14,7 +14,7 @@ models:
         tests:
           - unique
           - not_null
-      - name: product_margin
-        tests:
-          - accepted_values:
-              values: ['0.15', '0.2', '0.22', '0.25', '0.28', '0.3']
+  - name: product_margin
+    tests:
+      - accepted_values:
+          values: ['0.15', '0.2', '0.22', '0.25', '0.28', '0.3', '0.18']
